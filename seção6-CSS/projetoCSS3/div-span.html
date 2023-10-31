@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula sobre Div e Span</title>
+
+    <style type="text/css">
+        #topo{
+            background-color: #1b86ee;
+        }
+        #conteudo{
+            background: red;
+        }
+        .produto{
+            background: gray;
+            margin: 10px;
+        }
+        #rodape{
+            background: lightgreen;
+            text-align: center;
+        }
+        #assinatura{
+            background: lightcoral;
+        }
+    </style>
+</head>
+<body>
+<!--Div é em bloco e SPAN em linha-->
+    <div id="topo">
+        <img src="imagens/amazon-logo.png" alt="" width="150">
+        <ul type="none">
+            <li>Home</li>
+            <li>Quem somos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+
+    <div id="conteudo">
+        <div class="produto">
+            Produto 1
+        </div>
+        <div class="produto">
+            Produto 2
+        </div>
+        <div class="produto">
+            Produto 3
+        </div>
+    </div>
+    <div id="rodape">
+        Todos os direitos reservados.
+    </div>
+    <span>
+        Larissa 
+    </span>
+    <span id="assinatura">
+        Ramos
+    </span>
+</body>
+</html>
