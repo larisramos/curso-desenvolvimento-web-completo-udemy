@@ -1,0 +1,23 @@
+.conteudo{
+    border: 1px solid red;
+    /* padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 10px; */
+    /* Abaixo temos o comando padding definindo todos os elementos. Configuração em sentido horário.  */
+    padding: 20px 15px 10px 5px; 
+
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px; */
+
+    margin: 10px;
+
+    width: 150px;
+}
+.conteudo2{
+    border: 1px solid blue;
+    margin: 50px;
+    width: 150px;
+}
