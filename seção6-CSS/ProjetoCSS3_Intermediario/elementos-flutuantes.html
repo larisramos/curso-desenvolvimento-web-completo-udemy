@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Flutuantes</title>
+    <style>
+        .conteudo{
+            background: blue;
+            border: 1px solid gray;
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            float: left;
+        }
+        /* .conteudo1{
+            background: red;
+            border: 1px solid gray;
+            width: 150px;
+            height: 150px;
+            float: right;
+        } */
+
+        /* Aqui usamos o clear para limpar a formatação do ponto flutuante. */
+        .clear{
+            clear: both; 
+        }
+
+        #principal{
+            background: limegreen;
+            border: 5px solid red;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <div class="conteudo">
+            Conteudo 1
+        </div>
+
+        <div class="conteudo">
+            Conteudo 2
+        </div>
+
+        <div class="conteudo">
+            Conteudo 3
+        </div>
+
+        <!-- <p class="clear">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus debitis mollitia nostrum iste aliquam quasi non sint ratione est ad soluta natus ipsum explicabo nam ullam eaque, veniam reiciendis odit!
+        Nemo recusandae inventore ipsum iusto libero illo similique et, amet perferendis, est consequuntur temporibus error aliquam vitae sapiente. Repellendus doloremque laborum, ad dignissimos aliquam doloribus ut eveniet necessitatibus odit quaerat?
+        Officia, eligendi placeat. Dolorem ea repellendus repudiandae aliquid error ipsam id expedita harum totam temporibus eveniet saepe, distinctio eum officia, nulla vitae vero nobis officiis, quod magnam voluptatibus at! Harum!
+        Tempora aperiam porro debitis cumque nobis adipisci, fugiat natus laudantium consectetur deleniti? Error est, voluptates cum minima nam numquam eveniet quas consequatur, maxime qui quisquam fugiat magnam saepe, pariatur impedit?
+        Dolor maxime officiis error nostrum consequatur quia. Numquam consectetur inventore doloribus ratione at necessitatibus. Aperiam corrupti repudiandae, nemo officiis eveniet consequuntur quidem perferendis error laudantium provident nisi recusandae corporis earum!</p> -->
+        
+        <!-- ESSA DIV LIMPA O FLUXO DOS ELEMENTOS FLUTUANTES! -->
+        <div class="clear"></div>
+    </div> 
+</body>
+</html>
