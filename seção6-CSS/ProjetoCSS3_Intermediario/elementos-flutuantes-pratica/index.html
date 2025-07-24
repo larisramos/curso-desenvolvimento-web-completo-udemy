@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos flutuantes na prática</title>
+    <style>
+        body{
+            background: #f4f4f4;
+            font: 16px Arial, Helvetica, sans-serif;
+        }
+
+        #principal{
+            width: 920px;
+        }
+
+        .noticia{
+            background-color: #e5e5e5;
+            width: 280px;
+            padding: 5px;
+            margin: 5px;
+            float: left;
+        }
+
+        .clear{
+            clear: both;
+        }
+
+        .galeria-fotos{
+            background: white;
+            width: 265px;
+            padding: 5px;
+            margin: 12px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <div>
+            <div class="noticia">
+                <h2>Título 2 para notícia 1</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est fuga odit dignissimos, nobis hic ea, quis neque dolor distinctio autem cum ipsam fugiat vitae quas nemo repudiandae deleniti omnis nihil!</p>
+                
+                <a href="">Veja mais</a>
+            </div>
+
+            <div class="noticia">
+                <h2>Título 2 para notícia 2</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est fuga odit dignissimos, nobis hic ea, quis neque dolor distinctio autem cum ipsam fugiat vitae quas nemo repudiandae deleniti omnis nihil!</p>
+                
+                <a href="">Veja mais</a>
+            </div>
+
+            <div class="noticia">
+                <h2>Título 2 para notícia3</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est fuga odit dignissimos, nobis hic ea, quis neque dolor distinctio autem cum ipsam fugiat vitae quas nemo repudiandae deleniti omnis nihil!</p>
+                
+                <a href="">Veja mais</a>
+            </div>
+        </div> <!-- Fim div painel noticias-->
+
+        <div class="clear"></div>
+
+        <div>
+            <div class="galeria-fotos">
+                <img src="imagens/imagem1.png" alt="">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="galeria-fotos">
+                <img src="imagens/imagem2.png" alt="">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="galeria-fotos">
+                <img src="imagens/imagem3.png" alt="">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="galeria-fotos">
+                <img src="imagens/imagem4.png" alt="">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            
+            <div class="galeria-fotos">
+                <img src="imagens/imagem5.png" alt="">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div> <!--Fim galeria de fotos-->
+        <div class="clear"></div>
+    </div> <!-- Fim principal-->
+
+</body>
+</html>
